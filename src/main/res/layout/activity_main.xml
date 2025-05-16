@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cloudy"
+    android:padding="24dp"
+    tools:ignore="ExtraText">
+
+    <!-- Floating History Text -->
+
+    <!-- Start Quiz Button -->
+
+    <!-- Fancy TextView with custom font -->
+
+    <TextView
+        android:id="@+id/fancyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:text="Get ready to dive into a world of memories, surprises, and fun! In this game, every card draws you closer to the past, unlocking moments that will keep you on your toes. Let the flashbacks begin—may the best memory win!"
+        android:textColor="@color/material_dynamic_neutral20"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="280dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="168dp"
+        android:text="Start Quiz"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fancyText"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Welcome to Flashback!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Correct constraints to center and position the button -->
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginTop="200dp"
+    app:layout_constraintStart_toStartOf="parent"
+    android:layout_marginStart="64dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
